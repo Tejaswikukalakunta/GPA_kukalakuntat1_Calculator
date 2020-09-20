@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GPA_kukalakuntat1_Calculator</string>
+    <string name="course">Course</string>
+    <string name="grade">Grade</string>
+    <string name="credits">Credits</string>
+    <string name="no_hint"> </string>
+    <string name="course1">course1</string>
+    <string name="course2">course2</string>
+    <string name="course3">course3</string>
+    <string name="course4">course4</string>
+    <string name="course5">course5</string>
+    <string name="compute_gpa">Compute GPA</string>
+    <string name="result_gpa">Result GPA</string>
+    <string name="clear_form">Clear form</string>
+</resources>

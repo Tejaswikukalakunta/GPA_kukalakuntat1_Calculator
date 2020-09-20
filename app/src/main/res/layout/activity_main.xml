@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/view_background"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/background_header"
+                    android:text="@string/course"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_white"
+                    android:textSize="18sp" />
+
+                <Button
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/background_header"
+                    android:text="@string/grade"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_white"
+                    android:textSize="18sp" />
+
+                <Button
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/background_header"
+                    android:text="@string/credits"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_white"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/background_label"
+                    android:text="@string/course1"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_black"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/grade_1"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:autofillHints=""
+                    android:background="@color/background_label"
+                    android:hint="@string/no_hint"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:maxLength="1"
+                    android:textAllCaps="true"
+                    android:textColor="@color/color_black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/credit_1"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/background_label"
+                    android:text=""
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_black"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/background_label"
+                    android:text="@string/course2"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_black"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/grade_2"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:autofillHints=""
+                    android:background="@color/background_label"
+                    android:hint="@string/no_hint"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:maxLength="1"
+                    android:textAllCaps="true"
+                    android:textColor="@color/color_black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/credit_2"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/background_label"
+                    android:text=""
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_black"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/background_label"
+                    android:text="@string/course3"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_black"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/grade_3"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:autofillHints=""
+                    android:background="@color/background_label"
+                    android:hint="@string/no_hint"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:maxLength="1"
+                    android:textAllCaps="true"
+                    android:textColor="@color/color_black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/credit_3"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/background_label"
+                    android:text=""
+                    android:textColor="@color/color_black"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/background_label"
+                    android:text="@string/course4"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_black"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/grade_4"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:autofillHints=""
+                    android:background="@color/background_label"
+                    android:hint="@string/no_hint"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:maxLength="1"
+                    android:textAllCaps="true"
+                    android:textColor="@color/color_black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/credit_4"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/background_label"
+                    android:text=""
+                    android:textColor="@color/color_black"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/background_label"
+                    android:text="@string/course5"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_black"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/grade_5"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:autofillHints=""
+                    android:background="@color/background_label"
+                    android:hint="@string/no_hint"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:maxLength="1"
+                    android:textAllCaps="true"
+                    android:textColor="@color/color_black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/credit_5"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/background_label"
+                    android:text=""
+                    android:textColor="@color/color_black"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/compute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textAllCaps="false"
+                android:gravity="center"
+                android:text="@string/compute_gpa" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/result_gpa"
+                    android:textColor="@color/color_black"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:id="@+id/result"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:autofillHints=""
+                    android:background="@color/background_label"
+                    android:hint="@string/no_hint"
+                    android:text=""
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
